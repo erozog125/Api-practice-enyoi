@@ -15,7 +15,7 @@ body {
 
 .card {
   width: 20rem;
-  height: auto;
+  height: 30rem;
   border: groove 5px gold;
   border-radius: 10px;
   background-color: #ffffff;
@@ -26,17 +26,22 @@ body {
 }
 .card > img {
   width: 90%;
+  height: 50%;
   margin: 1rem;
   border-radius: 5px;
 }
 
 .card > h2 {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   color: #ea8007;
-  text-shadow: -5px -5px 0 #74747d;
+  text-align: center;  
 }
 
 .card > p {
   text-align: center;
   padding: 1rem;
+  font-size: 1.1rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin: 1rem;
 }
